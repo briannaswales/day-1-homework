@@ -1,0 +1,12 @@
+age_inspector = int(input('YOU, gimme that age!! '))
+# identifying variable, converting input str to int
+
+# younger than 18
+if age_inspector < 18:
+    print('kids!')
+# between 18 and 65
+elif age_inspector >= 18 and age_inspector <= 65:
+    print('adults')
+# everyone else
+else:
+    print('seniors')
